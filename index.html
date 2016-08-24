@@ -6,26 +6,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="author" content="Harry Huang"/>
-  <title>Resume Page</title>
   <!-- Bootstrap -->
   <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
   <!-- Custom styles for this template -->
-  <link href="css/global.css" rel="stylesheet"/>
-  <link href="css/jumbotron-user.css" rel="stylesheet"/>
-  <link href="css/starter-template.css" rel="stylesheet"/>
+  <link href="css/base.css" rel="stylesheet"/>
 </head>
 
 <body>
-  <div class="jumbotron">
-    <div class="container">
-      <img class="img-circle" src="img/ico_1_0.jpg" alt="Harry Huang" width="135" height="135" />
-      <h1>Mengxun Huang</h1>
+  <div class="header">
+    <div class="container text-center">
+      <img class="img-circle" id="user_image" width="135" height="135"/>
+      <h1 id="user_name"></h1>
+      <h3 id="user_nick"></h3>
     </div>
-  </div> <!-- /jumbotron -->
-	
-  <div class="post-zone" id="post">
-  </div> <!-- /show-info -->
-	
+  </div> <!-- .header -->
+
+  <div class="show-profile">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 profile-info" id="pf_left"></div>
+        <div class="col-sm-6 profile-info" id="pf_right"></div>
+      </div>
+    </div>
+  </div> <!-- .show-profile -->
+
+  <div class="show-case">
+    <div class="container text-center" id="list_cases"></div>
+  </div> <!-- .show-case -->
+
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->

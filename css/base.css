@@ -1,0 +1,51 @@
+body {
+  font-family: Microsoft YaHei;
+}
+
+.header {
+  background-color: #1c5482;
+  color:            #e5e5e5;
+  padding-top:      60px;
+  padding-bottom:   60px;
+}
+
+.show-profile {
+  padding-top:      30px;
+  padding-bottom:   20px;
+}
+
+.show-case {
+  padding-top:      25px;
+  padding-bottom:   25px;
+  background-color: #f3f3f3;
+}
+
+.case-info {
+  padding-top:      20px;
+  padding-bottom:   20px;
+}
+
+.case-info .col-sm-8 p {
+  color:            #0b6802;
+}
+
+@media (min-width: 768px) {
+  .case-info .col-sm-8 {
+    padding-top:      20px;
+    padding-bottom:   20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .profile-info {
+    padding-left:     10%;
+    padding-right:    10%;
+  }
+}
+
+@media (min-width: 992px) {
+  .profile-info {
+    padding-left:     12.5%;
+    padding-right:    12.5%;
+  }
+}
