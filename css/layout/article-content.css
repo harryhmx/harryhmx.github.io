@@ -1,6 +1,3 @@
-.article-content-container {
-  background: var(--item-background-color);
-}
 .article-content-container .article-title {
   color: var(--second-text-color);
   font-weight: 600;

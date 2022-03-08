@@ -3,7 +3,6 @@
 }
 .home-content-container .home-article-list .home-article-item {
   position: relative;
-  background: var(--item-background-color);
 }
 .home-content-container .home-article-list .home-article-item .top-icon {
   position: absolute;
