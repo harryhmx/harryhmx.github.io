@@ -1,9 +1,10 @@
 :root {
   --primary-color: #6b8f1a;
+  --header-color: #eddcd0;
   --title-color: #2a7a47;
   --name-color: #6a1c38;
   --first-screen-color: #1e1e66;
-  --first-screen-background-color: #ebf3ed;
+  --first-screen-background-color: #bee5eb;
   --background-color: #fff;
   --item-background-color: #ececf3;
   --second-background-color: #f7f7f7;
@@ -26,10 +27,11 @@
 @media (prefers-color-scheme: light) {
   :root {
     --primary-color: #6b8f1a;
+    --header-color: #eddcd0;
     --title-color: #2a7a47;
     --name-color: #6a1c38;
     --first-screen-color: #1e1e66;
-    --first-screen-background-color: #ebf3ed;
+    --first-screen-background-color: #bee5eb;
     --background-color: #fff;
     --item-background-color: #ececf3;
     --second-background-color: #f7f7f7;
@@ -53,10 +55,11 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --primary-color: #96c924;
+    --header-color: #6a330c;
     --title-color: #53b978;
     --name-color: #c38b9f;
     --first-screen-color: #8a8add;
-    --first-screen-background-color: #243c2a;
+    --first-screen-background-color: #143b41;
     --background-color: #383940;
     --item-background-color: #2a2a5c;
     --second-background-color: #32333a;
@@ -79,10 +82,11 @@
 }
 .light-mode {
   --primary-color: #6b8f1a;
+  --header-color: #eddcd0;
   --title-color: #2a7a47;
   --name-color: #6a1c38;
   --first-screen-color: #1e1e66;
-  --first-screen-background-color: #ebf3ed;
+  --first-screen-background-color: #bee5eb;
   --background-color: #fff;
   --item-background-color: #ececf3;
   --second-background-color: #f7f7f7;
@@ -104,10 +108,11 @@
 }
 .dark-mode {
   --primary-color: #96c924;
+  --header-color: #6a330c;
   --title-color: #53b978;
   --name-color: #c38b9f;
   --first-screen-color: #8a8add;
-  --first-screen-background-color: #243c2a;
+  --first-screen-background-color: #143b41;
   --background-color: #383940;
   --item-background-color: #2a2a5c;
   --second-background-color: #32333a;
@@ -565,10 +570,11 @@ button {
 }
 :root {
   --primary-color: #6b8f1a;
+  --header-color: #eddcd0;
   --title-color: #2a7a47;
   --name-color: #6a1c38;
   --first-screen-color: #1e1e66;
-  --first-screen-background-color: #ebf3ed;
+  --first-screen-background-color: #bee5eb;
   --background-color: #fff;
   --item-background-color: #ececf3;
   --second-background-color: #f7f7f7;
@@ -591,10 +597,11 @@ button {
 @media (prefers-color-scheme: light) {
   :root {
     --primary-color: #6b8f1a;
+    --header-color: #eddcd0;
     --title-color: #2a7a47;
     --name-color: #6a1c38;
     --first-screen-color: #1e1e66;
-    --first-screen-background-color: #ebf3ed;
+    --first-screen-background-color: #bee5eb;
     --background-color: #fff;
     --item-background-color: #ececf3;
     --second-background-color: #f7f7f7;
@@ -618,10 +625,11 @@ button {
 @media (prefers-color-scheme: dark) {
   :root {
     --primary-color: #96c924;
+    --header-color: #6a330c;
     --title-color: #53b978;
     --name-color: #c38b9f;
     --first-screen-color: #8a8add;
-    --first-screen-background-color: #243c2a;
+    --first-screen-background-color: #143b41;
     --background-color: #383940;
     --item-background-color: #2a2a5c;
     --second-background-color: #32333a;
@@ -644,10 +652,11 @@ button {
 }
 .light-mode {
   --primary-color: #6b8f1a;
+  --header-color: #eddcd0;
   --title-color: #2a7a47;
   --name-color: #6a1c38;
   --first-screen-color: #1e1e66;
-  --first-screen-background-color: #ebf3ed;
+  --first-screen-background-color: #bee5eb;
   --background-color: #fff;
   --item-background-color: #ececf3;
   --second-background-color: #f7f7f7;
@@ -669,10 +678,11 @@ button {
 }
 .dark-mode {
   --primary-color: #96c924;
+  --header-color: #6a330c;
   --title-color: #53b978;
   --name-color: #c38b9f;
   --first-screen-color: #8a8add;
-  --first-screen-background-color: #243c2a;
+  --first-screen-background-color: #143b41;
   --background-color: #383940;
   --item-background-color: #2a2a5c;
   --second-background-color: #32333a;
@@ -974,10 +984,11 @@ pre .javascript .function {
 }
 :root {
   --primary-color: #6b8f1a;
+  --header-color: #eddcd0;
   --title-color: #2a7a47;
   --name-color: #6a1c38;
   --first-screen-color: #1e1e66;
-  --first-screen-background-color: #ebf3ed;
+  --first-screen-background-color: #bee5eb;
   --background-color: #fff;
   --item-background-color: #ececf3;
   --second-background-color: #f7f7f7;
@@ -1000,10 +1011,11 @@ pre .javascript .function {
 @media (prefers-color-scheme: light) {
   :root {
     --primary-color: #6b8f1a;
+    --header-color: #eddcd0;
     --title-color: #2a7a47;
     --name-color: #6a1c38;
     --first-screen-color: #1e1e66;
-    --first-screen-background-color: #ebf3ed;
+    --first-screen-background-color: #bee5eb;
     --background-color: #fff;
     --item-background-color: #ececf3;
     --second-background-color: #f7f7f7;
@@ -1027,10 +1039,11 @@ pre .javascript .function {
 @media (prefers-color-scheme: dark) {
   :root {
     --primary-color: #96c924;
+    --header-color: #6a330c;
     --title-color: #53b978;
     --name-color: #c38b9f;
     --first-screen-color: #8a8add;
-    --first-screen-background-color: #243c2a;
+    --first-screen-background-color: #143b41;
     --background-color: #383940;
     --item-background-color: #2a2a5c;
     --second-background-color: #32333a;
@@ -1053,10 +1066,11 @@ pre .javascript .function {
 }
 .light-mode {
   --primary-color: #6b8f1a;
+  --header-color: #eddcd0;
   --title-color: #2a7a47;
   --name-color: #6a1c38;
   --first-screen-color: #1e1e66;
-  --first-screen-background-color: #ebf3ed;
+  --first-screen-background-color: #bee5eb;
   --background-color: #fff;
   --item-background-color: #ececf3;
   --second-background-color: #f7f7f7;
@@ -1078,10 +1092,11 @@ pre .javascript .function {
 }
 .dark-mode {
   --primary-color: #96c924;
+  --header-color: #6a330c;
   --title-color: #53b978;
   --name-color: #c38b9f;
   --first-screen-color: #8a8add;
-  --first-screen-background-color: #243c2a;
+  --first-screen-background-color: #143b41;
   --background-color: #383940;
   --item-background-color: #2a2a5c;
   --second-background-color: #32333a;
@@ -1605,7 +1620,7 @@ pre .javascript .function {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--background-color);
+  background: var(--header-color);
   padding-top: 2px;
   box-shadow: 2px 2px 5px var(--shadow-color);
 }
@@ -1779,7 +1794,7 @@ pre .javascript .function {
   transform: scaleY(0);
   transform-origin: top;
   z-index: 1002;
-  background: var(--background-color);
+  background: var(--header-color);
   transition-property: color, background, box-shadow, border-color, transform;
   transition-delay: 0s, 0s, 0s, 0s, 0s;
   transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.38s;
