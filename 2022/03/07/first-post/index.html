@@ -23,7 +23,7 @@
     <script id="hexo-configurations">
     let KEEP = window.KEEP || {};
     KEEP.hexo_config = {"hostname":"harryhmx.github.io","root":"/","language":["en","zh-CN","zh-TW","default"]};
-    KEEP.theme_config = {"toc":{"enable":false,"number":false,"expand_all":false,"init_open":false},"style":{"primary_color":"#6B8F1A","avatar":"/images/harrydubai.png","favicon":"/images/hexo.png","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":false,"scale":false},"first_screen":{"enable":true,"color":"#1E1E66","background_img":"/images/bg.svg","background_color":null,"description":"Keep roaming the world, Keep praying for peace and love ~"},"scroll":{"progress_bar":{"enable":false},"percent":{"enable":false}}},"local_search":{"enable":false,"preload":false},"code_copy":{"enable":false,"style":"default"},"pjax":{"enable":false},"lazyload":{"enable":false},"version":"3.4.5"};
+    KEEP.theme_config = {"toc":{"enable":false,"number":false,"expand_all":false,"init_open":false},"style":{"primary_color":"#6B8F1A","avatar":"/images/harrydubai.png","favicon":"/images/hexo.png","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":false,"scale":false},"first_screen":{"enable":true,"color":"#1E1E66","background_img":"/images/bg.svg","background_color":"#BEE5EB","description":"Keep roaming the world, Keep praying for peace and love ~"},"scroll":{"progress_bar":{"enable":false},"percent":{"enable":false}}},"local_search":{"enable":false,"preload":false},"code_copy":{"enable":false,"style":"default"},"pjax":{"enable":false},"lazyload":{"enable":false},"version":"3.4.5"};
     KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
   </script>
 <meta name="generator" content="Hexo 6.0.0"></head>
@@ -132,31 +132,65 @@
                         
                     </div>
                     <div class="meta-info">
-                        <div class="article-meta-info">
-    <span class="article-date article-meta-item">
-        <i class="fas fa-edit"></i>&nbsp;
-        <span class="pc">2022-03-07 07:02:47</span>
-        <span class="mobile">2022-03-07 07:02</span>
-    </span>
-    
-    
-        <span class="article-tags article-meta-item">
-            <i class="fas fa-tags"></i>&nbsp;
-            <ul>
-                
-                    <li>
-                        <a href="/tags/Test/">Test</a>&nbsp;
-                    </li>
-                
-            </ul>
-        </span>
-    
+                        .article-meta-info {
+  font-size: 0.8rem;
+  color: var(--third-text-color);
 
-    
-    
-    
-    
-</div>
+  .article-meta-item {
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .article-date {
+
+    .mobile {
+      display: none;
+    }
+
+    +keep-tablet() {
+      .pc {
+        display: none;
+      }
+
+      .mobile {
+        display: inline;
+      }
+    }
+
+  }
+
+
+  .article-tags, .article-categories {
+    display: inline;
+
+    ul, li {
+      display: inline;
+    }
+
+    a {
+      color: var(--third-text-color);
+
+      &:hover {
+        color: var(--primary-color);
+      }
+    }
+  }
+
+  .article-tags {
+    +keep-tablet() {
+      display: none;
+    }
+  }
+
+  .article-min2read, .article-wordcount {
+    +keep-mobile() {
+      display: none;
+    }
+  }
+}
 
                     </div>
                 </div>
