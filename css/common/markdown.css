@@ -23,7 +23,6 @@
   text-decoration: none;
   overflow-wrap: break-word;
   cursor: pointer;
-  border-bottom: 1px solid var(--third-text-color);
   box-sizing: border-box;
   padding-bottom: 2px;
 }

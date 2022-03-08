@@ -3,6 +3,7 @@
 }
 .home-content-container .home-article-list .home-article-item {
   position: relative;
+  background: var(--item-background-color);
 }
 .home-content-container .home-article-list .home-article-item .top-icon {
   position: absolute;
@@ -55,10 +56,4 @@ keep-mobile()
   height: 1px;
   background: var(--border-color);
   margin: 0 10px;
-}
-.home-content-container .home-article-list .home-article-item .home-article-meta-info-container a {
-  color: var(--third-text-color);
-}
-.home-content-container .home-article-list .home-article-item .home-article-meta-info-container a:hover {
-  color: var(--primary-color);
 }
