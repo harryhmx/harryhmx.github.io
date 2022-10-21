@@ -9,7 +9,7 @@
     
     <title>
         
-            Archive: 2022/4 |
+            Python Web Development |
         
         Roamer&#39;s Note
     </title>
@@ -59,7 +59,7 @@
                 <ul class="menu-list">
                     
                         <li class="menu-item">
-                            <a class="active"
+                            <a class=""
                                href="/archives"
                             >
                                 归档 (ARCHIVES)
@@ -90,7 +90,7 @@
         <ul class="drawer-menu-list">
             
                 <li class="drawer-menu-item flex-center">
-                    <a class="active"
+                    <a class=""
                        href="/archives">归档 (ARCHIVES)</a>
                 </li>
             
@@ -115,66 +115,108 @@
 
                 
                     <div class="fade-in-down-animation">
-    <div class="archive-container ">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation">Python Web Development</span>
+        </div>
+
         
-<div class="archive-list-container">
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="/images/harrydubai.png">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">Harry Huang</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fas fa-edit"></i>&nbsp;
+        <span class="pc">2022-10-21 13:10:06</span>
+        <span class="mobile">2022-10-21 13:10</span>
+    </span>
     
-        <section class="archive-item">
-            <div class="archive-item-header">
-                <span class="archive-year">2022</span>
-                <span class="archive-year-post-count">[6]</span>
-            </div>
-            <ul class="article-list">
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/10/21/python-web-dev/"
-                        >Python Web Development</a>
-                        <span class="article-date">10-21</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/04/02/data-algorithms-demo-zh-2/"
-                        >绝处逢生</a>
-                        <span class="article-date">04-02</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/03/22/data-algorithms-demo-zh-1/"
-                        >100层楼和两个玻璃瓶</a>
-                        <span class="article-date">03-22</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/03/22/moments-before-pandemic/"
-                        >疫情前的旅途片段 (Moments Before Pandemic)</a>
-                        <span class="article-date">03-22</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/03/07/first-post/"
-                        >My First Hexo Post</a>
-                        <span class="article-date">03-07</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/03/07/hello-world/"
-                        >Hello World</a>
-                        <span class="article-date">03-07</span>
-                    </li>
-                
-            </ul>
-        </section>
+    
+
+    
+    
+    
     
 </div>
 
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <ul>
+<li><p>Python3.7 Installations<br><code>$ sudo apt-get install software-properties-common</code><br><code>$ sudo apt-get install python3-distutils</code><br><code>$ sudo add-apt-repository ppa:deadsnakes/ppa</code><br><code>$ sudo apt-get update</code><br><code>$ sudo apt-get install python3.7</code></p>
+</li>
+<li><p>PIP &amp; Virtualenv Installations<br><code>$ mkdir wgets &amp;&amp; cd wgets</code><br><code>$ wget https://bootstrap.pypa.io/get-pip.py</code><br><code>$ sudo python3 get-pip.py</code><br><code>$ pip3 --help</code><br><code>$ sudo pip3 install virtualenv</code></p>
+</li>
+<li><p>Using Virtualenv &amp; Install Django<br><code>$ cd .. &amp;&amp; mkdir virtual &amp;&amp; cd virtual</code><br><code>$ virtualenv roamerharry</code><br><em># Create virtual python environment named ‘roamerharry’<br>OR</em> <code>$ virtualenv --python=python3.7 roamerharry</code><br><em># Create virtual python environment named ‘roamerharry’ for version 3.7</em><br><code>$ source roamerharry/bin/activate</code><br><em># Enter environment ‘roamerharry’</em><br><code>$ pip install django</code><br><em>OR</em> <code>$ pip install django==2.2.15</code><br><em># Install Django</em><br><code>$ deactivate</code><br><em># Quit environment ‘roamerharry’</em></p>
+</li>
+<li><p>Start project<br><code>$ cd .. &amp;&amp; mkdir projects &amp;&amp; cd projects</code><br><code>$ django-admin.py startproject roamerharry</code><br><em># roamerharry: project_name</em><br><code>$ cd roamerharry</code></p>
+</li>
+<li><p>Run project<br><code>$ python manage.py runserver</code><br><em>or</em><br><code>$ python manage.py runserver [ip]:[port]</code><br><em>example</em><br><code>$ python manage.py runserver 0.0.0.0:8024</code></p>
+</li>
+<li><p>Create new app<br><code>$ python manage.py startapp archive</code></p>
+</li>
+</ul>
+
+        </div>
+
+        
+            <div class="post-copyright-info">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li>Post title：Python Web Development</li>
+        <li>Post author：Harry Huang</li>
+        <li>Create time：2022-10-21 13:10:06</li>
+        <li>
+            Post link：https://harryhmx.github.io/2022/10/21/python-web-dev/
+        </li>
+        <li>
+            Copyright Notice：All articles in this blog are licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> unless stating additionally.
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+
+        
+            <div class="article-nav">
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                           rel="next"
+                           href="/2022/04/02/data-algorithms-demo-zh-2/"
+                        >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">绝处逢生</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+        
     </div>
 </div>
+
 
                 
             </div>
@@ -204,6 +246,19 @@
         </div>
     </div>
 
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
     
 
     <div class="right-bottom-side-tools">
