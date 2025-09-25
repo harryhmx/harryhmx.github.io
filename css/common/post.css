@@ -1,0 +1,244 @@
+.article-page {
+  padding: 30px 12.5%;
+}
+.article-page .container {
+  background-color: var(--primary-section-bg);
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  padding: 20px;
+}
+.article-page .container .article-head {
+  padding: 15px 2.5% 0;
+}
+.article-page .container .article-head .article-title {
+  color: var(--section-title-color);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+.article-page .container .article-head .article-meta {
+  color: var(--section-meta-color);
+}
+.article-page .container .article-head .article-meta a {
+  color: inherit;
+  text-decoration: none;
+}
+.article-page .container .article-head .article-meta a:hover {
+  text-decoration: underline;
+}
+.article-page .container .article-body {
+  padding: 0 2.5%;
+/* Highlight.js specific styling */
+/* Handle all code block variants */
+/* LaTeX/MathJax styling */
+/* Inline math styling */
+/* Display math styling */
+/* Code styling for better monospace appearance */
+}
+.article-page .container .article-body a {
+  color: inherit;
+}
+.article-page .container .article-body img {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.article-page .container .article-body code {
+  border-radius: 10px;
+}
+.article-page .container .article-body pre {
+  border-radius: 10px;
+  position: relative;
+}
+.article-page .container .article-body .code-block-wrapper {
+  margin: 1rem 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  background-color: #000;
+  border-radius: 10px;
+  min-height: 50px;
+  position: relative;
+}
+.article-page .container .article-body .code-block-wrapper .copy-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+.article-page .container .article-body .code-block-wrapper .copy-button:hover {
+  background-color: rgba(0,0,0,0.9);
+  transform: translateY(0);
+}
+.article-page .container .article-body .code-block-wrapper .copy-button i {
+  margin: 0;
+}
+.article-page .container .article-body .code-block-wrapper:hover .copy-button {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.article-page .container .article-body pre {
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  overflow-x: auto;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #000;
+  min-height: 50px;
+  padding: 12px;
+}
+.article-page .container .article-body pre code {
+  display: block;
+  width: 100%;
+  min-width: fit-content;
+  border-radius: 10px;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-wrap: normal;
+  overflow-x: auto;
+  background-color: transparent;
+  color: #f8f8f2;
+}
+.article-page .container .article-body .highlight {
+  border-radius: 10px;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+.article-page .container .article-body .highlight table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.article-page .container .article-body .highlight table td {
+  padding: 0;
+  border: none;
+}
+.article-page .container .article-body .highlight table td.code {
+  width: 100%;
+}
+.article-page .container .article-body .highlight table td.code pre {
+  margin: 0;
+  padding: 1rem;
+  overflow-x: auto;
+  background-color: #000;
+  min-height: 50px;
+}
+.article-page .container .article-body .highlight table td.code pre code {
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-wrap: normal;
+  overflow-x: auto;
+  display: block;
+  background-color: transparent;
+  color: #f8f8f2;
+}
+.article-page .container .article-body pre code,
+.article-page .container .article-body .highlight code,
+.article-page .container .article-body .code-block-wrapper code {
+  white-space: pre !important;
+  word-wrap: normal !important;
+  overflow-x: auto !important;
+  display: block !important;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  tab-size: 4 !important;
+  -moz-tab-size: 4 !important;
+  -o-tab-size: 4 !important;
+}
+.article-page .container .article-body .h1,
+.article-page .container .article-body .h2,
+.article-page .container .article-body .h3,
+.article-page .container .article-body .h4,
+.article-page .container .article-body .h5,
+.article-page .container .article-body .h6 {
+  margin-top: 1.75rem;
+  margin-bottom: 1.25rem;
+}
+.article-page .container .article-body .has-jax {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1em;
+  background-color: transparent;
+  padding: 0.1em 0.2em;
+  border-radius: 3px;
+  display: inline-block;
+}
+.article-page .container .article-body mjx-container {
+  margin: 0.5em 0;
+  font-size: 1.1em;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 0.2em;
+}
+.article-page .container .article-body mjx-container svg {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: transparent;
+}
+.article-page .container .article-body mjx-container[jax="CHTML"][display="false"] {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0.2em;
+}
+.article-page .container .article-body mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+  overflow-x: auto;
+}
+.article-page .container .article-body code {
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 0.9em;
+  background-color: rgba(0,0,0,0.05);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  color: #e83e8c;
+}
+.article-page .container .article-foot {
+  margin: 20px 0 10px;
+  font-size: 1.25rem;
+}
+.article-page .container .article-foot .article-nav {
+  color: var(--card-title-color);
+  text-align: center;
+}
+.article-page .container .article-foot .article-nav a {
+  margin: 0 10px;
+  color: inherit;
+  text-decoration: none;
+}
+.article-page .container .article-foot .article-nav a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .article-page {
+    padding: 10px 2.5%;
+  }
+  .article-page .container .article-head {
+    padding: 10px 0 0;
+  }
+  .article-page .container .article-body {
+    padding: 0;
+  }
+  .article-page .container .article-body img {
+    max-width: 100%;
+  }
+}

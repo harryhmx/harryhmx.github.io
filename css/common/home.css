@@ -1,0 +1,90 @@
+.home-page .section {
+  padding: 5rem 0;
+}
+.home-page .section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--section-title-color);
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+.home-page .card-body h1,
+.home-page .card-body h2,
+.home-page .card-body h3,
+.home-page .card-body h4,
+.home-page .card-body h5,
+.home-page .card-body h6 {
+  color: var(--card-title-color);
+}
+.home-page #intro {
+  background-image: url("/images/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.home-page #intro .img-fluid {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.home-page #intro .img-fluid:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+.home-page #intro a {
+  color: var(--card-title-color);
+}
+.home-page #intro strong {
+  font-size: 1.3rem;
+  color: var(--section-meta-color);
+}
+.home-page #skills {
+  background-color: var(--primary-section-bg);
+  padding: 4rem 0;
+}
+.home-page #skills .skill-card {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.home-page #skills .skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+.home-page #projects {
+  background-color: var(--secondary-section-bg);
+  padding: 4rem 0;
+  margin-bottom: 0;
+}
+.home-page #projects .project-card {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.home-page #projects .project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+@media (max-width: 768px) {
+  .home-page .section {
+    padding: 3rem 0;
+  }
+  .home-page #intro .img-fluid {
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 auto 0.8rem;
+    display: block;
+  }
+}
+[data-theme="dark"] .home-page #intro {
+  background-image: none;
+}

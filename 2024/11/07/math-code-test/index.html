@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<meta name="keywords" content="Harry Huang Personal Website Theme Passion">
+<meta name="description" content="Harry&#39;s Personal Website">
+<meta name="author" content="Harry Huang">
+<title>
+    
+        Math Code Test
+    
+</title>
+<link rel="shortcut icon" href="/images/logo.png">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"/>
+<!-- Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<!-- Code Highlight -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/monokai.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<!-- Customize -->
+
+<link rel="stylesheet" href="/css/style.css">
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+<!-- Theme JS -->
+<script src="/js/theme.js"></script>
+
+<!-- MathJax Support -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$']],
+      displayMath: [['$$','$$']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script>
+  // Force MathJax to process the page
+  window.addEventListener('load', function() {
+    if (typeof MathJax !== 'undefined') {
+      MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+    }
+  });
+</script>
+
+<meta name="generator" content="Hexo 7.2.0"></head>
+<body class="passion">
+  <header>
+    <nav class="navbar fixed-top navbar-expand-md">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      Harry Huang
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/archives">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/cn-site">中文页面</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Theme toggle button -->
+<button class="btn btn-theme position-fixed bottom-0 end-0 m-4" id="themeToggle">
+    <i class="bi bi-moon-fill"></i>
+</button>
+  </header>
+  <main>
+    <div class="article-page">
+  <div class="container">
+    <!-- Title & Meta -->
+    <div class="article-head">
+      <h1 class="article-title">Math Code Test</h1>
+      <p class="article-meta">
+        2024-11-07 14:30 --&gt;
+        
+          
+            <i class="bi bi-folder"></i> <a href="/categories/Uncategorized/">Uncategorized</a>
+            
+          
+        
+      </p>
+    </div>
+    <!-- Main Content -->
+    <div class="article-body">
+      <h3 id="Math-Expression-Test"><a href="#Math-Expression-Test" class="headerlink" title="Math Expression Test"></a>Math Expression Test</h3><p><em>The tests of LaTeX for math expressions.</em></p>
+<ul>
+<li><p><strong>Inline Math</strong>
+Here is an inline formula: $E &#x3D; mc^2$</p>
+</li>
+<li><p><strong>Display Math</strong>
+Here is a display formula:
+$$\int_{-\infty}^{\infty} e^{-x^2} dx &#x3D; \sqrt{\pi}$$</p>
+</li>
+<li><p><strong>More Examples</strong></p>
+<ul>
+<li>Fraction: $\frac{1}{2}$</li>
+<li>Sum: $\sum_{i&#x3D;1}^{n} i &#x3D; \frac{n(n+1)}{2}$</li>
+<li>Matrix:
+  $$\begin{pmatrix} a &amp; b \\ c &amp; d \end{pmatrix}$$</li>
+<li>Alternative Matrix:
+  $$\begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix}$$</li>
+<li>Larger Matrix:
+  $$\begin{pmatrix} 1 &amp; 2 &amp; 3 \\ 4 &amp; 5 &amp; 6 \\ 7 &amp; 8 &amp; 9 \end{pmatrix}$$</li>
+<li>Complex Matrix:
+  $$\begin{bmatrix} \alpha &amp; \beta &amp; \gamma \\ \delta &amp; \epsilon &amp; \zeta \\ \eta &amp; \theta &amp; \iota \end{bmatrix}$$</li>
+</ul>
+</li>
+</ul>
+<h3 id="Code-Block-Test"><a href="#Code-Block-Test" class="headerlink" title="Code Block Test"></a>Code Block Test</h3><p><em>The tests of code block for Python.</em></p>
+<ul>
+<li><p><strong>Single Line Code Block</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><code class="hljs python"><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Hello, World!&quot;</span>)<br></code></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Multi Line Code Block</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np<br><br>a = np.array([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>])<br>b = np.array([<span class="hljs-number">6</span>, <span class="hljs-number">7</span>, <span class="hljs-number">8</span>, <span class="hljs-number">9</span>, <span class="hljs-number">10</span>])<br><br>c = a + b<br><br><span class="hljs-built_in">print</span>(c)<br></code></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Code with HTML Characters</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">check_html_entities</span>():<br>    <span class="hljs-comment"># This function contains HTML special characters</span><br>    html_content = <span class="hljs-string">&quot;&lt;div&gt;Hello &amp; World&lt;/div&gt;&quot;</span><br>    comparison = <span class="hljs-string">&quot;5 &lt; 10 &amp;&amp; 10 &gt; 5&quot;</span><br>    ampersand_test = <span class="hljs-string">&quot;AT&amp;T&quot;</span><br><br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">f&quot;HTML: <span class="hljs-subst">&#123;html_content&#125;</span>&quot;</span>)<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">f&quot;Comparison: <span class="hljs-subst">&#123;comparison&#125;</span>&quot;</span>)<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">f&quot;Ampersand: <span class="hljs-subst">&#123;ampersand_test&#125;</span>&quot;</span>)<br><br>    <span class="hljs-keyword">return</span> <span class="hljs-literal">True</span><br></code></pre></td></tr></table></figure></li>
+</ul>
+
+    </div>
+    <!-- Navigation -->
+    <div class="article-foot">
+      <div class="article-nav">
+        <!-- Previous Post -->
+        
+          <a href="/2025/06/16/why-i-explore-the-world-cn/">
+            <i class="bi bi-arrow-left"></i>&nbsp;&nbsp;Newer Post
+          </a>
+        
+        <!-- Separator -->
+        
+          <i class="bi bi-heart-fill"></i>
+        
+        <!-- Next Post -->
+        
+          <a href="/2024/11/07/hello-world/">
+            Older Post&nbsp;&nbsp;<i class="bi bi-arrow-right"></i>
+          </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+  </main>
+  <footer>
+    <div class="footer">
+  <div class="container">
+    <div id="social-links" class="social-links">
+      
+        
+          <a href="mailto:harry_ctu@hotmail.com" class="social-icon" target="_blank" rel="noopener">
+            <i class="bi bi-envelope"></i>
+          </a>
+        
+          <a href="https://github.com/harryhmx" class="social-icon" target="_blank" rel="noopener">
+            <i class="bi bi-github"></i>
+          </a>
+        
+          <a href="https://facebook.com/harry.huang4769/" class="social-icon" target="_blank" rel="noopener">
+            <i class="bi bi-facebook"></i>
+          </a>
+        
+          <a href="https://instagram.com/harry_huang_mtr/" class="social-icon" target="_blank" rel="noopener">
+            <i class="bi bi-instagram"></i>
+          </a>
+        
+          <a href="https://xiaohongshu.com/user/profile/5f833fcd000000000101c46c" class="social-icon" target="_blank" rel="noopener">
+            <i class="bi bi-book"></i>
+          </a>
+        
+      
+    </div>
+    <div class="copyright">
+      <p>&copy; 2024
+        
+        - 2025
+        
+        | Harry Huang</p>
+    </div>
+  </div>
+</div>
+  </footer>
+</body>
+</html>
