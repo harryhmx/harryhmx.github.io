@@ -37,12 +37,12 @@
   font-size: 1.3rem;
   color: var(--section-meta-color);
 }
-.home-page #skills {
+.home-page #experiences {
   background-color: var(--primary-section-bg);
-  padding: 4rem 0;
+  padding: 4rem 12.5%;
 }
-.home-page #skills .skill-card {
-  background-color: var(--card-bg);
+.home-page #experiences .experience-card {
+  background-color: var(--experience-card-bg);
   padding: 2rem;
   border-radius: 12px;
   margin-bottom: 2rem;
@@ -50,17 +50,17 @@
   border: 1px solid rgba(255,255,255,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.home-page #skills .skill-card:hover {
+.home-page #experiences .experience-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 .home-page #projects {
   background-color: var(--secondary-section-bg);
-  padding: 4rem 0;
+  padding: 4rem 12.5%;
   margin-bottom: 0;
 }
 .home-page #projects .project-card {
-  background-color: var(--card-bg);
+  background-color: var(--project-card-bg);
   padding: 2rem;
   border-radius: 12px;
   margin-bottom: 2rem;
@@ -83,6 +83,10 @@
     object-fit: cover;
     margin: 0 auto 0.8rem;
     display: block;
+  }
+  .home-page #experiences,
+  .home-page #projects {
+    padding: 2.5rem 2.5%;
   }
 }
 [data-theme="dark"] .home-page #intro {

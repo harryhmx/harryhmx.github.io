@@ -7,7 +7,9 @@
   --navbar-text: #f9e75e;
   --navbar-link: #f9a55f;
   --theme-toggle-bg: #74fba8;
-  --card-bg: #fbd974;
+  --card-bg: #ffb3ba;
+  --experience-card-bg: #fbd974;
+  --project-card-bg: #b3d9ff;
   --footer-bg: #e9ecef;
   --section-title-color: #2a4650;
   --section-meta-color: #5f0627;
@@ -24,7 +26,9 @@
   --navbar-text: #d4c44f;
   --navbar-link: #d48547;
   --theme-toggle-bg: #2a5939;
-  --card-bg: #5d512c;
+  --card-bg: #6b2d2d;
+  --experience-card-bg: #5d512c;
+  --project-card-bg: #1e4a6b;
   --footer-bg: #141619;
   --section-title-color: #8ba4ac;
   --section-meta-color: #ff9eae;
@@ -260,12 +264,12 @@ footer .container .copyright {
   font-size: 1.3rem;
   color: var(--section-meta-color);
 }
-.home-page #skills {
+.home-page #experiences {
   background-color: var(--primary-section-bg);
-  padding: 4rem 0;
+  padding: 4rem 12.5%;
 }
-.home-page #skills .skill-card {
-  background-color: var(--card-bg);
+.home-page #experiences .experience-card {
+  background-color: var(--experience-card-bg);
   padding: 2rem;
   border-radius: 12px;
   margin-bottom: 2rem;
@@ -273,17 +277,17 @@ footer .container .copyright {
   border: 1px solid rgba(255,255,255,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.home-page #skills .skill-card:hover {
+.home-page #experiences .experience-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 .home-page #projects {
   background-color: var(--secondary-section-bg);
-  padding: 4rem 0;
+  padding: 4rem 12.5%;
   margin-bottom: 0;
 }
 .home-page #projects .project-card {
-  background-color: var(--card-bg);
+  background-color: var(--project-card-bg);
   padding: 2rem;
   border-radius: 12px;
   margin-bottom: 2rem;
@@ -306,6 +310,10 @@ footer .container .copyright {
     object-fit: cover;
     margin: 0 auto 0.8rem;
     display: block;
+  }
+  .home-page #experiences,
+  .home-page #projects {
+    padding: 2.5rem 2.5%;
   }
 }
 [data-theme="dark"] .home-page #intro {

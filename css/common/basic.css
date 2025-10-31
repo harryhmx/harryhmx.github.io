@@ -7,7 +7,9 @@
   --navbar-text: #f9e75e;
   --navbar-link: #f9a55f;
   --theme-toggle-bg: #74fba8;
-  --card-bg: #fbd974;
+  --card-bg: #ffb3ba;
+  --experience-card-bg: #fbd974;
+  --project-card-bg: #b3d9ff;
   --footer-bg: #e9ecef;
   --section-title-color: #2a4650;
   --section-meta-color: #5f0627;
@@ -24,7 +26,9 @@
   --navbar-text: #d4c44f;
   --navbar-link: #d48547;
   --theme-toggle-bg: #2a5939;
-  --card-bg: #5d512c;
+  --card-bg: #6b2d2d;
+  --experience-card-bg: #5d512c;
+  --project-card-bg: #1e4a6b;
   --footer-bg: #141619;
   --section-title-color: #8ba4ac;
   --section-meta-color: #ff9eae;
